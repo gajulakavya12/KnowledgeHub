@@ -1,0 +1,45 @@
+.face {
+    width: 400px;
+    height: 400px;
+    background-color:rgb(239, 174, 8);
+    border-radius: 50%;
+    border: 2px solid goldenrod;
+    box-shadow: 0px 4px 8px;
+    transition: 1s;
+}
+
+.mouth {
+    width: 200px;
+    height: 75px;
+    background-color: rgb(135, 4, 4);
+    border-radius: 0px 0px 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.lefteye, .righteye {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.lefteye{
+    left: 100px;
+}
+
+.righteye{
+   left: 250px;
+}
+
+.face:hover {
+    box-shadow: 0px 8px 26px;
+    .mouth {
+        border-radius: 0px 0px 65px 65px;
+    }
+}
