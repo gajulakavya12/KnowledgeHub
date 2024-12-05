@@ -22,7 +22,7 @@ Reset functionality to restart the game.
 1. Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/simon-says-game.git
+git clone https://github.com/gajulakavya12/KnowledgeHub/tree/main/JavaScript/SemonGame
 
 2. Navigate to the project folder:
 bash
